@@ -1,0 +1,8 @@
+﻿Create User Form which shows the state of a sudoku cell:
++ Green, with a number, if everything is fixed
++ grey, showing all possible numbers and/or the count of possible numbers
+
+User Controls:
+https://msdn.microsoft.com/en-us/library/aa302342.aspx?f=255&MSPPError=-2147217396
+https://www.c-sharpcorner.com/UploadFile/c5c6e2/creating-a-simple-user-control-and-adding-it-to-the-toolbox/
+https://social.msdn.microsoft.com/Forums/windows/en-US/08279f02-e158-4d1b-aa7f-6476d0628bed/add-usercontrol-to-toolbox-when-usercontrol-in-same-project?forum=winformsdesigner

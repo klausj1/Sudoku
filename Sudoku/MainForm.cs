@@ -22,5 +22,10 @@ namespace Sudoku
         {
             field = new field_9x9("testfile.sudoku");
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

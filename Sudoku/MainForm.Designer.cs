@@ -33,11 +33,11 @@
             // 
             // pb_init
             // 
-            this.pb_init.Location = new System.Drawing.Point(315, 32);
+            this.pb_init.Location = new System.Drawing.Point(541, 12);
             this.pb_init.Name = "pb_init";
             this.pb_init.Size = new System.Drawing.Size(75, 23);
             this.pb_init.TabIndex = 0;
-            this.pb_init.Text = "Start";
+            this.pb_init.Text = "Read File";
             this.pb_init.UseVisualStyleBackColor = true;
             this.pb_init.Click += new System.EventHandler(this.pb_init_Click);
             // 
@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(422, 296);
+            this.ClientSize = new System.Drawing.Size(628, 589);
             this.Controls.Add(this.pb_init);
             this.Name = "MainForm";
             this.Text = "Form1";
