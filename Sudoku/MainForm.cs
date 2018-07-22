@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Sudoku
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        field_9x9 field = null;
+        public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void pb_init_Click(object sender, EventArgs e)
+        {
+            field = new field_9x9("testfile.sudoku");
         }
     }
 }
