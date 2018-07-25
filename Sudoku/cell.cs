@@ -21,5 +21,15 @@ namespace Sudoku
             fixedValue = 0;
             possibleValues = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         }
+
+        public List<int> getPossibleValues()
+        {
+            return possibleValues;
+        }
+
+        public int getFixedValue()
+        {
+            return fixedValue;
+        }
     }
 }

@@ -32,5 +32,10 @@ namespace Sudoku
                 }
             }
         }
+
+        public cell getCell(int row, int column)
+        {
+            return field[row, column];
+        }
     }
 }
